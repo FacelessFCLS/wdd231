@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="George Adams">
+    <meta name="description" content="Home Page for WDD231 - Web Development I">
+    <title>WDD 231 - Course Home Page | George Adams</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.jpeg" sizes="16x16" type="image/jpeg">
+
+    <link rel="stylesheet" href="styles/normalize.css" media="screen">
+    <link rel="stylesheet" href="styles/index.css" media="screen">
+    <link rel="stylesheet" href="styles/index-large.css" media="screen">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/course-list-array.js" defer></script>
+</head>
+
+<body>
+
+    <div class="intro-container">
+        <img src="images/profile.jpg" alt="Photo of George Adams">
+        <h1>George Adams</h1>
+        <span id="menu">☰</span>
+    </div>
+
+    <header>
+        <nav class="nav-links">
+            <a href="#"> <span class="close-menu">✖</span> </a>
+            <a href="index.html">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="https://github.com/facelessfcls">GitHub Profile</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <section class="tag-one">
+                <h2>Course Work</h2>
+                <ul>
+                    <li class="course-taken">📌 WDD321 Home Page</li>
+                    <li class="course-taken">📌 Chamber of Commerce</li>
+                    <li class="course-taken">📌 Final Project</li>
+                </ul>
+            </section>
+
+            <section class="tag-two">
+                <h2>Tucson, Arizona</h2>
+                <img src="images/zona.jpg" width="1724" height="2594" alt="Tucson, Arizona">
+                <p>Tucson, Arizona</p>
+            </section>
+
+            <section class="tag-three">
+                <h2>Web and Computer Programming Certificate</h2>
+
+                <div class="btn-container">
+                    <button class="all-course">All</button>
+                    <button class="cse-course">CSE</button>
+                    <button class="wdd-course">WDD</button>
+                </div>
+                <hr>
+                <div class="courses-container"></div>
+            </section>
+
+        </div>
+        <span class="total-credit"></span>
+        <dialog id="course-details"></dialog>
+    </main>
+
+    <footer class="footer-nav">
+
+        <span id="currentYear">&copy;</span>
+
+        <div class="flag-name">
+            <p> 🌵 George Adams 🌵 Arizona </p>
+            <img src="images/az-flag.jpg" alt="Arizona Flag" loading="lazy">
+        </div>
+        <p id="lastModified"></p>
+
+    </footer>
+    <script src="scripts/navigation.js"></script>
+</body>
+
+</html>
