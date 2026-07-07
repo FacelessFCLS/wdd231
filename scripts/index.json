@@ -1,0 +1,23 @@
+{
+  "family_name": "Adams",
+  "move_in_date": "2026-07-01",
+  "number_of_people": 3,
+  "visited_by_bishopric": true,
+  "family_members": [
+    {
+      "name": "George Adams",
+      "gender": "Male",
+      "birthdate": "1992-07-13"
+    },
+    {
+      "name": "Laura Adams",
+      "gender": "Female",
+      "birthdate": "1991-06-13"
+    },
+    {
+      "name": "Calvin Adams",
+      "gender": "Male",
+      "birthdate": "2017-11-21"
+    }
+  ]
+}
