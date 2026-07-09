@@ -1,70 +1,70 @@
 {
     "companies": [
         {
-            "name": "Achiv's Production",
-            "address": "No 23 Tutu Layout, Kubwa Abuja",
-            "phoneNumbers": "(+234) 814-343-4353",
-            "websitesUrls": "https://www.achivsproduction.com",
-            "tagLine": "See the world through my Lens!",
+            "name": "Crimson's Production",
+            "address": "5479 E. Redden St. Tucson, AZ 85741",
+            "phoneNumbers": "(520) 343-4353",
+            "websitesUrls": "https://www.crimsonsproduction.com",
+            "tagLine": "Paint that door red!",
             "membershipLevels": [
                 {"silver": "🥈"}
             ]
         },
         {
-            "name": "Luna Juice Confectionary",
-            "address": "No 24 Tudun Fulani, Sabon Gari Bwari Abuja",
-            "phoneNumbers": "(+234) 913-253-5023",
-            "websitesUrls": "https://www.lunajuiceconfectionary.com",
+            "name": "Confetti Confectionary",
+            "address": "4545 E. Sweet St. Tucson, AZ 85741",
+            "phoneNumbers": "(520) 253-5023",
+            "websitesUrls": "https://www.confetticonfectionary.com",
             "tagLine": "Prepared with Love and Goodness",
             "membershipLevels": [
                 {"gold": "🥇"}
             ]
         },
         {
-            "name": "Acromat Ventures",
-            "address": "34 St. Peters Avenue, Wuse, Abuja",
-            "phoneNumbers": "(+234) 803-754-7434",
-            "websitesUrls": "https://www.acromatventures.com",
+            "name": "West Ventures",
+            "address": "9999 W. Thatway St. Tucson, AZ 85741",
+            "phoneNumbers": "(520) 754-7434",
+            "websitesUrls": "https://www.westventures.com",
             "tagLine": "Trust and Integrity",
             "membershipLevels": [
                 {"members": "⭐"}
             ]
         },
         {
-            "name": "W3 Integrated Consult",
-            "address": "No 45 Allen Street, Lugbe, Abuja",
-            "phoneNumbers": "(+234) 804-906-5674",
-            "websitesUrls": "https://www.w3integratedventures.com",
+            "name": "Concrete Consultants",
+            "address": "78 N. Rockhard St. Tucson, AZ 85741",
+            "phoneNumbers": "(520) 906-5674",
+            "websitesUrls": "https://www.concreteconsultants.com",
             "tagLine": "Reliability and Trust",
             "membershipLevels": [
                 {"members": "⭐"}
             ]
         },
         {
-            "name": "Bontu Farms",
-            "address": "945 Abuja-Suleja Express Highway, Suleja, Abuja",
-            "phoneNumbers": "(+234) 901-755-8256",
-            "websitesUrls": "https://www.bontufarms.com.ng",
+            "name": "Freaking Farms",
+            "address": "Highway 10, Just past that one fence, Tucson, AZ 85741",
+            "phoneNumbers": "(520) 755-8256",
+            "websitesUrls": "https://www.freakingfarms.com",
             "tagLine": "Harvesting Nature's Best",
             "membershipLevels": [
                 {"gold": "🥇"}
             ]
         },
         {
-            "name": "Nolz Ventures",
-            "address": "Block 9 Wuse Market, Wuse, Abuja",
-            "phoneNumbers": "(+234) 803-456-7444",
-            "websitesUrls": "https://www.nolzventures.com",
+            "name": "What's Up Tech",
+            "address": "10010 S. Binary St. Tucson, AZ 85741",
+            "phoneNumbers": "(520) 456-7444",
+            "websitesUrls": "https://www.whatsuptech.com",
             "tagLine": "Innovating Tomorrow Today",
             "membershipLevels": [
                 {"silver": "🥈"}
             ]
         },
         {
-            "name": "Digest Signatures",
-            "address": "Street 35 Central Business District, Abuja",
-            "phoneNumbers": "(+234) 913-756-7399",
-            "websitesUrls": "https://www.digestsignatures.com",
+            "name": "Digest Sandwiches",
+            "address": "Hangry St. Tucson, AZ 85741",
+            "phoneNumbers": "(520) 756-7399",
+            "websitesUrls": "https://www.digestsandwiches.com",
             "tagLine": "Your Health, Our Commitment",
             "membershipLevels": [
                 {"members": "⭐"}
