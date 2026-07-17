@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2a7b48;
+    --primary-color: rgb (67, 67, 231);
     --secondary-color: #FAEDFC;
     --accent-color1: #E6E6E6;
     --accent-color2: #F2F2F2;
@@ -61,7 +61,7 @@
 
 }
 
-#home-container .events h3, .cWeather h3, .wForecast h3 {
+#home-container .events h2, .cWeather h2, .wForecast h2 {
     background-color: var(--primary-color);
     padding: 15px;
     width: 100%;
