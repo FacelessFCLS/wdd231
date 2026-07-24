@@ -5,172 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="George Adams">
-    <meta name="description" content="We have the vision to build a community where businesses can foster a community of growth. A place for businesses to connect together.">
+    <meta name="description" content="Home Page for WDD231 - Web Development. This will be the main page for the course and will contain links to all of the assignments.">
+    <title>WDD 231 - Course Home Page | George Adams</title>
 
-    <meta property="og:title" content="Tucsonish Chamber of Commerce - George Adams">
-    <meta property="og:description" content="Tucsonish Chamber of Commerce connecting businesses together">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://facelessfcls.github.io/wdd231/chamber/images/homepage-photo.jpg">
-    <meta property="og:url" content="https://facelessfcls.github.io/wdd231/chamber/index.html">
-    <meta name="twitter:card" content="Tucsonish Chamber of Commerce connects and grows businesses.">
-    <title>Home | Tucsonish Chambers of Commerce </title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
-    <link rel="manifest" href="images/icons/site.webmanifest">
+    <meta property="og:title" content="Facebook - A Social Media website used to connect with friends and family.">
+    <meta property="og:description" content="Explore status updates, photos, and videos shared by friends and family.">
+    <meta property="og:image" content="www.facebook.com/images/facebook-image.jpg">
+    <meta property="og:url" content="www.facebook.com">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.jpeg" sizes="16x16" type="image/jpeg">
+    <link rel="icon" href="favicon.ico">
 
     <link rel="stylesheet" href="styles/normalize.css" media="screen">
     <link rel="stylesheet" href="styles/index.css" media="screen">
-    <link rel="stylesheet" href="styles/directory.css" media="screen">
-    <link rel="stylesheet" href="styles/directory-large.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    
-    <script src="scripts/index.js" type="module"></script>
-    <script src="scripts/lastmodified.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
+    <link rel="stylesheet" href="styles/index-large.css" media="screen">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/course-list-array.js" defer></script>
 </head>
 
 <body>
-    <header class="top-banner">
 
-        <nav class="items-left">
-            <ul>
-                <li> <i class="fa-brands fa-facebook"></i> </li>
-                <li> <i class="fa-brands fa-twitter"></i> </li>
-                <li> <i class="fa-brands fa-linkedin"></i> </li>
-                <li> (520) 404-9549 </li>
-            </ul>
-        </nav>
-
-        <nav class="items-right">
-            <ul>
-                <li> <a href="#">Contact Us</a> </li>
-                <li> <a href="#">Privacy Policy</a> </li>
-            </ul>
-        </nav>
-
-    </header>
-
+    <div class="intro-container">
+        <img src="images/profile.jpg" alt="Photo of George Adams">
+        <h1>George Adams</h1>
+        <span id="menu">☰</span>
+    </div>
 
     <header>
-
-        <div class="nav-container">
-            <span>
-                <a href="index.html"> 
-                    <img src="images/az-flag-state.jpg" alt="Tucsonish Chambers of Commerce logo">
-                </a>
-
-                <span id="icon-menu"> </span>
-            </span>
-
-            <nav class="nav-links">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                </ul>
-            </nav>
-        </div>
-
+        <nav class="nav-links">
+            <a href="#"> <span class="close-menu">✖</span> </a>
+            <a href="index.html">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="https://github.com/facelessfcls">GitHub Profile</a>
+        </nav>
     </header>
 
-
     <main>
-        <div id="hero-container">
-            <img src="images/homepage-photo.jpg" alt="home page hero image" loading="lazy">
-            <span tabindex="0">Keynote Ticket</span>
-        </div>
+        <div class="main-container">
+            <section class="tag-one">
+                <h2>Course Work</h2>
+                <ul>
+                    <li class="course-taken">📌 WDD321 Home Page</li>
+                    <li class="course-taken">📌 Chamber of Commerce</li>
+                    <li class="course-taken">📌 Final Project</li>
+                </ul>
+            </section>
 
-        <h1 class="home">Home</h1>
+            <section class="tag-two">
+                <h2>Tucson, Arizona</h2>
+                <img src="images/zona.jpg" width="1724" height="2594" alt="Tucson, Arizona">
+                <p>Tucson, Arizona</p>
+            </section>
 
-        <div id="home-container">
-            <!-- Events -->
-            <div class="events">
-                <h2>Events</h2>
-                <p> <strong>Tucsonish Networking Conference</strong>
-                    <br> <strong>Date:</strong> 28th April 2025
-                    <br> <strong>Time:</strong> 4pm
-                    <br> <strong>Venue:</strong> Hotel Hilton, Tucson. 
+            <section class="tag-three">
+                <h2>Web and Computer Programming Certificate</h2>
 
-                </p>
-            </div>
-
-            <!-- Current Weather -->
-            <div class="cWeather">
-                <h2>Current Weather</h2>
-
-                <div class="weatherInfo-container">
-                    <img id="weather-icon" src="#" alt="weather icon" width="100" height="100">
-
-                    <ul class="weather-info">
-
-                    </ul>
-
+                <div class="btn-container">
+                    <button class="all-course">All</button>
+                    <button class="cse-course">CSE</button>
+                    <button class="wdd-course">WDD</button>
                 </div>
-            </div>
-
-            <!-- Weather Forecast  -->
-            <div class="wForecast">
-                <h2>Weather Forecast</h2>
-
-                <div class="forecastInfo">
-
-                </div>
-
-            </div>
+                <hr>
+                <div class="courses-container"></div>
+            </section>
 
         </div>
-
-        <div id="companies-container">
-
-        </div>
-
+        <span class="total-credit"></span>
+        <dialog id="course-details"></dialog>
     </main>
 
+    <footer class="footer-nav">
 
-    <footer>
-        <div class="footer-background">
+        <span id="currentYear">&copy;</span>
 
-            <div class="footer-container">
-                <div class="sec-one">
-                    <p>Tucsonish Chamber of Commerce <br>
-                        3700 W Starburst Dr. <br>
-                        Tucson, AZ 85741 <br>
-                        <a href="#">info@tucsonishcc.org</a><br>
-                        (520) 404-9549
-                    </p>
-                </div>
-
-                <div class="sec-two">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                </div>
-
-                <div class="sec-three">
-                    <p>WDD231 Web Development 1 Project
-                        <br>Brigham Young University - Idaho
-                        <br>George Adams
-                    </p>
-                    <p id="lastModified"></p>
-                </div>
-            </div>
+        <div class="flag-name">
+            <p> 🌵 George Adams 🌵 Arizona </p>
+            <img src="images/az-flag.jpg" alt="Arizona Flag" loading="lazy">
         </div>
-
-        <div class="footend-container">
-            <div class="footer-end">
-                <p><span id="currentYear">©</span> Tucsonish Chamber of Commerce | All rights reserved</p>
-                <p>George Adams</p>
-            </div>
-        </div>
+        <p id="lastModified"></p>
 
     </footer>
+    
 </body>
 
 </html>
