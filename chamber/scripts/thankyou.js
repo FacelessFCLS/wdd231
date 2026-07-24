@@ -29,7 +29,7 @@ function buildFormResult() {
   let params = new Date(timeStamp).toLocaleString();
 
   displayApp.innerHTML = `
-    <h1>Welcome to Abuja Chamber of Commerce</h1>
+    <h1>Welcome to Tucsonish Chamber of Commerce</h1>
     <span><p>We appreciate your application!</p></span>
     
     <div class="infoContainer">
