@@ -1,0 +1,60 @@
+:root {
+    --primary-color: rgb(67, 67, 255);
+    --secondary-color: rgb(12, 112, 100);
+    --accent-color1: rgb(230, 230, 230);
+    --accent-color2: rgb(242, 242, 242);
+    --accent-color3: rgb(244, 244, 244);
+    --accent-color4: rgb(186, 255, 247, 0.89);
+    --accent-color5: rgb(185, 97, 14);
+    --rich-black: rgb(1, 11, 19);
+
+    font-family: Outfit, Raleway, sans-serif;
+    background-color: var(--accent-color3);
+    font-size: 16px;
+
+}
+
+
+.thanks-msg {
+    position: relative;
+    height: 100vh;
+    background: url('../images/thankyou-hero.jpg') center center no-repeat;
+    background-size: cover;    
+    opacity: var(--rich-black) .6;
+}
+
+.thanks-msg p {
+    color: white;
+    font-size: 3rem;
+    font-family: Raleway, Outfit, sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.thanks-msg div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thanks-msg p:nth-of-type(2) {
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.thanks-msg div button {
+    padding: 12px 23px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.thanks-msg a button {
+    color: white;
+
+}
